@@ -10,6 +10,9 @@
   <EditText
       android:id="@+id/title"
       android:hint="Title"
+      android:layout_marginStart="20dp"
+      android:layout_marginEnd="20dp"
+      android:inputType="text"
       android:layout_width="match_parent"
       android:layout_height="40dp"/>
 
@@ -18,6 +21,9 @@
         android:id="@+id/Description"
         android:layout_below="@id/title"
         android:hint="description"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:inputType="text"
         android:layout_width="match_parent"
         android:layout_height="60dp"/>
 
@@ -28,7 +34,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/submit"
-        android:text="Submit"
+        android:text="Save"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
         android:layout_below="@id/Description"/>
 
 
@@ -39,6 +49,8 @@
       android:layout_height="wrap_content"
       android:id="@+id/gotonextActivity"
       android:text="Show list"
+      android:layout_marginStart="20dp"
+      android:layout_marginEnd="20dp"
       android:layout_below="@id/submit"/>
 
 </RelativeLayout>
